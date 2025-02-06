@@ -1,0 +1,53 @@
+.global{
+    background-color: #FDF5EB;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.main{
+    width: 50vh;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    border-radius: 1rem;
+    border: 1px solid black;
+    background-color: white;
+}
+.input{
+    width: 200px;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding-left: 10px;
+    outline: none;
+}
+.logo{
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    width: 200px;
+    height: 50px;
+}
+.btn{
+    background-color: #73CF73;
+    color: white;
+    width: 200px;
+    height: 50px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+}
+.git{
+    position: absolute;
+    top: 50px;
+    left: 1300px;
+    width: 80px;
+    height: 80px;
+    cursor: pointer;
+}
