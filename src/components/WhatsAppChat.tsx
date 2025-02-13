@@ -156,8 +156,10 @@ export default function WhatsAppChat() {
           ) : (
             <ul className={styles.list}>
               {messages[selectedChat + "@c.us"].map((msg, index) => (
-                <li key={index} className={styles.text}>
-                  <strong>{msg.chatId.slice(0, -5)}:</strong> {msg.text}
+                <li key={index} className={styles.listItem}>
+                  <span className={styles.text}>
+                    <strong>{msg.chatId.slice(0, -5)}:</strong> {msg.text}
+                  </span>
                 </li>
               ))}
             </ul>
